@@ -1,5 +1,5 @@
 import { cn } from "../lib/utils";
-import Icon from "./Icon";
+import { Icon } from "./Icon";
 
 const Rating = ({
   size = 16,

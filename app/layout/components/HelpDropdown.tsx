@@ -1,5 +1,3 @@
-"use client";
-
 import { Icon } from "@/components/Icon";
 import { useEscapeKey, useOutsideClick } from "captain-react-hooks";
 import { AnimatePresence, motion } from "motion/react";

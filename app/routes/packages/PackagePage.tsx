@@ -94,4 +94,4 @@ const PackagePage = () => {
   );
 };
 
-export { PackagePage };
+export default PackagePage;

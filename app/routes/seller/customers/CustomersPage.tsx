@@ -46,4 +46,4 @@ const CustomersPage = () => {
   );
 };
 
-export { CustomersPage };
+export default CustomersPage;

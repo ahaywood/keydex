@@ -10,4 +10,4 @@ const PackageReviewsPage = () => {
   );
 };
 
-export { PackageReviewsPage };
+export default PackageReviewsPage;

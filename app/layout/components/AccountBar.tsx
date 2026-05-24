@@ -1,5 +1,3 @@
-"use client";
-
 import { Avatar } from "@/components/Avatar";
 import { Icon } from "@/components/Icon";
 import { AnimatePresence, motion } from "motion/react";

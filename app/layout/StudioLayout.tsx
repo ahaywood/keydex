@@ -1,11 +1,11 @@
-import { Link } from "react-router";
+import { Link, Outlet } from "react-router";
 import { AccountBar } from "./components/AccountBar";
 import { StudioSellerNav } from "./components/StudioSellerNav";
 import { StudioHeaderNav } from "./components/StudioHeaderNav";
 import { Icon } from "../components/Icon";
 import { getUrlSegments } from "../lib/urlHelper";
 
-const StudioLayout = ({ children }: { children: React.ReactNode }) => {
+const StudioLayout = () => {
   return (
     <div className="studio grid grid-cols-[286px_1fr]">
       <aside className="border-r border-border pt-7 px-12 flex flex-col h-screen overflow-y-auto">
@@ -40,10 +40,12 @@ const StudioLayout = ({ children }: { children: React.ReactNode }) => {
         <div className="absolute top-4 right-[68px]">
           <StudioHeaderNav />
         </div>
-        <main>{children}</main>
+        <main>
+          <Outlet />
+        </main>
       </div>
     </div>
   );
 };
 
-export { StudioLayout };
+export default StudioLayout;

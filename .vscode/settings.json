@@ -3,9 +3,11 @@
     "wrangler.json": "jsonc"
   },
   "workbench.colorCustomizations": {
-    "activityBar.background": "#1eff00",
-    "titleBar.activeBackground": "#1eff00",
-    "titleBar.activeForeground": "#000000"
+    "activityBar.background": "#7900ff",
+    "titleBar.activeBackground": "#7900ff",
+    "titleBar.activeForeground": "#FFFFFF",
+    "titleBar.inactiveBackground": "#0202A2",
+    "titleBar.inactiveForeground": "#FAFAFF"
   },
   "cSpell.words": ["keydex", "miniflare"]
 }

@@ -4,4 +4,4 @@ const IssuesPage = () => {
   return <div>IssuesPage</div>;
 };
 
-export { IssuesPage };
+export default IssuesPage;

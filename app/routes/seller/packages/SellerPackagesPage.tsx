@@ -42,4 +42,4 @@ const SellerPackagesPage = () => {
   );
 };
 
-export { SellerPackagesPage };
+export default SellerPackagesPage;

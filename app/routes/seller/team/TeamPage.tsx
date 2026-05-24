@@ -4,4 +4,4 @@ const TeamPage = () => {
   return <div>TeamPage</div>;
 };
 
-export { TeamPage };
+export default TeamPage;

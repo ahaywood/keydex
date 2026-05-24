@@ -4,4 +4,4 @@ const SellerPackageDiscussionsPage = () => {
   return <div>SellerPackageDiscussionsPage</div>;
 };
 
-export { SellerPackageDiscussionsPage };
+export default SellerPackageDiscussionsPage;

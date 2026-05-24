@@ -4,4 +4,4 @@ const LegalPage = () => {
   return <div>LegalPage</div>;
 };
 
-export { LegalPage };
+export default LegalPage;

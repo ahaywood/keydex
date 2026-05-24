@@ -8,4 +8,4 @@ const SellerPackageSalesPage = () => {
   return <div>Sales page</div>;
 };
 
-export { SellerPackageSalesPage };
+export default SellerPackageSalesPage;

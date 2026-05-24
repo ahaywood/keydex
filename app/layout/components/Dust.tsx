@@ -1,5 +1,3 @@
-"use client";
-
 import React, { useEffect, useRef } from "react";
 
 interface Circle {
@@ -12,7 +10,7 @@ interface Circle {
   update: (
     ctx: CanvasRenderingContext2D,
     width: number,
-    height: number
+    height: number,
   ) => void;
 }
 
@@ -40,7 +38,7 @@ const Dust = () => {
       y: number,
       dx: number,
       dy: number,
-      radius: number
+      radius: number,
     ): Circle => ({
       x,
       y,

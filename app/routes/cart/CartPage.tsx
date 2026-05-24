@@ -4,4 +4,4 @@ const CartPage = () => {
   return <div>CartPage</div>;
 };
 
-export { CartPage };
+export default CartPage;

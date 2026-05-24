@@ -10,4 +10,4 @@ const PackageReleasesPage = () => {
   );
 };
 
-export { PackageReleasesPage };
+export default PackageReleasesPage;

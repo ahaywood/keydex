@@ -1,6 +1,6 @@
 import { Link } from "react-router";
 import { Avatar } from "./Avatar";
-import Icon from "./Icon";
+import { Icon } from "./Icon";
 import { Rating } from "./Rating";
 
 const PackageRow = ({

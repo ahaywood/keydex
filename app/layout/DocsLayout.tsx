@@ -1,6 +1,6 @@
-import { Link } from "react-router";
+import { Link, Outlet } from "react-router";
 
-const DocsLayout = ({ children }: { children: React.ReactNode }) => {
+const DocsLayout = () => {
   return (
     <div className="page page-grid">
       <div className="relative">
@@ -53,10 +53,10 @@ const DocsLayout = ({ children }: { children: React.ReactNode }) => {
         </div>
       </div>
       <div className="border-l border-border min-h-screen col-span-2 grid grid-cols-subgrid">
-        {children}
+        <Outlet />
       </div>
     </div>
   );
 };
 
-export { DocsLayout };
+export default DocsLayout;

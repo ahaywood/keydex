@@ -20,4 +20,4 @@ const PackageDocsPage = () => {
   );
 };
 
-export { PackageDocsPage };
+export default PackageDocsPage;

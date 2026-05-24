@@ -10,4 +10,4 @@ const DiscussionPage = () => {
   );
 };
 
-export { DiscussionPage };
+export default DiscussionPage;

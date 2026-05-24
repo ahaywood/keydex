@@ -4,4 +4,4 @@ const VerifyPage = () => {
   return <div>VerifyPage</div>;
 };
 
-export { VerifyPage };
+export default VerifyPage;

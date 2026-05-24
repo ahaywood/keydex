@@ -4,4 +4,4 @@ const MessagesPage = () => {
   return <div>MessagesPage</div>;
 };
 
-export { MessagesPage };
+export default MessagesPage;

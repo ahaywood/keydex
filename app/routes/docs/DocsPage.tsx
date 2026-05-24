@@ -156,4 +156,4 @@ const DocsPage = () => {
   );
 };
 
-export { DocsPage };
+export default DocsPage;

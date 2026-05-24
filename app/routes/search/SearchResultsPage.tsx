@@ -4,4 +4,4 @@ const SearchResultsPage = () => {
   return <div>SearchResultsPage</div>;
 };
 
-export { SearchResultsPage };
+export default SearchResultsPage;

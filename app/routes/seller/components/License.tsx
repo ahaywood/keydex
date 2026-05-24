@@ -1,5 +1,3 @@
-"use client";
-
 import React, { useState } from "react";
 import { Avatar } from "@/components/Avatar";
 import { Icon } from "@/components/Icon";

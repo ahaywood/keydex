@@ -4,4 +4,4 @@ const IndividualMessagePage = () => {
   return <div>IndividualMessagePage</div>;
 };
 
-export { IndividualMessagePage };
+export default IndividualMessagePage;

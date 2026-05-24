@@ -4,4 +4,4 @@ const ForgotPage = () => {
   return <div>ForgotPage</div>;
 };
 
-export { ForgotPage };
+export default ForgotPage;

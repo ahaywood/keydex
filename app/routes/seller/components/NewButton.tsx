@@ -1,5 +1,3 @@
-"use client";
-
 import { ButtonWithDropdown } from "@/components/ButtonWithDropdown";
 import React from "react";
 

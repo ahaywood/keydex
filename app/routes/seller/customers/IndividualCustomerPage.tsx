@@ -87,4 +87,4 @@ const IndividualCustomerPage = () => {
   );
 };
 
-export { IndividualCustomerPage };
+export default IndividualCustomerPage;

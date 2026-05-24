@@ -1,7 +1,5 @@
-"use client";
-
 import React, { createContext, useContext } from "react";
-import Icon from "./Icon";
+import { Icon } from "./Icon";
 
 const ToggleContext = createContext<{
   isOpen: boolean;

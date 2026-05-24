@@ -4,4 +4,4 @@ const InvitePage = () => {
   return <div>InvitePage</div>;
 };
 
-export { InvitePage };
+export default InvitePage;

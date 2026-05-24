@@ -2,4 +2,4 @@ const SupportPage = () => {
   return <div>SupportPage</div>;
 };
 
-export { SupportPage };
+export default SupportPage;

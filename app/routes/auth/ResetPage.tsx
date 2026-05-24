@@ -4,4 +4,4 @@ const ResetPage = () => {
   return <div>ResetPage</div>;
 };
 
-export { ResetPage };
+export default ResetPage;

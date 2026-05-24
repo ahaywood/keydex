@@ -113,4 +113,4 @@ const OrdersPage = () => {
   );
 };
 
-export { OrdersPage };
+export default OrdersPage;

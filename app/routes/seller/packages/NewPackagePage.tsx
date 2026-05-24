@@ -4,4 +4,4 @@ const NewPackagePage = () => {
   return <div>NewPackagePage</div>;
 };
 
-export { NewPackagePage };
+export default NewPackagePage;

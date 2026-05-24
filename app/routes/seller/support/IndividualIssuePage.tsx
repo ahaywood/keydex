@@ -4,4 +4,4 @@ const IndividualIssuePage = () => {
   return <div>IndividualIssuePage</div>;
 };
 
-export { IndividualIssuePage };
+export default IndividualIssuePage;

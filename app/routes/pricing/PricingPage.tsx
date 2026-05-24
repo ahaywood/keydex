@@ -4,4 +4,4 @@ const PricingPage = () => {
   return <div>PricingPage</div>;
 };
 
-export { PricingPage };
+export default PricingPage;

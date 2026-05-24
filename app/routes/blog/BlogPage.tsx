@@ -4,4 +4,4 @@ const BlogPage = () => {
   return <div>BlogPage</div>;
 };
 
-export { BlogPage };
+export default BlogPage;

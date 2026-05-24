@@ -4,4 +4,4 @@ const IndividualDiscussionPage = () => {
   return <div>IndividualDiscussionPage</div>;
 };
 
-export { IndividualDiscussionPage };
+export default IndividualDiscussionPage;

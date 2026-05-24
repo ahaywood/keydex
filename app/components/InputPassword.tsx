@@ -1,7 +1,5 @@
-"use client";
-
 import React, { useState } from "react";
-import Icon from "./Icon";
+import { Icon } from "./Icon";
 
 const InputPassword = ({
   ...props

@@ -1,10 +1,11 @@
 import React from "react";
+import { Outlet } from "react-router";
 import { Breadcrumbs } from "../components/Breadcrumbs";
 import { Icon } from "../components/Icon";
 // import { PackageHeader } from "../pages/seller/packages/components/PackageHeader";
 // import { PackageNav } from "../pages/seller/packages/components/PackageNav";
 
-const StudioPackagesLayout = ({ children }: { children: React.ReactNode }) => {
+const StudioPackagesLayout = () => {
   return (
     <div>
       <a href="#" className="text-white">
@@ -25,9 +26,9 @@ const StudioPackagesLayout = ({ children }: { children: React.ReactNode }) => {
       {/* Packages Navigation */}
       {/* <PackageNav currentPath="sales" /> */}
 
-      {children}
+      <Outlet />
     </div>
   );
 };
 
-export { StudioPackagesLayout };
+export default StudioPackagesLayout;
